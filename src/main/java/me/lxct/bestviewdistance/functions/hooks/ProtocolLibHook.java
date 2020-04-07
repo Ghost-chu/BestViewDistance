@@ -1,5 +1,7 @@
 package me.lxct.bestviewdistance.functions.hooks;
 
+import com.comphenix.packetwrapper.WrapperPlayClientSettings;
+import com.comphenix.packetwrapper.WrapperPlayServerPlayerInfo;
 import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.ProtocolLibrary;
 import com.comphenix.protocol.ProtocolManager;
@@ -21,9 +23,14 @@ class ProtocolLibHook {
             @Override
             public void onPacketReceiving(PacketEvent e) {
                 if (e.getPacketType() == PacketType.Play.Client.SETTINGS) {
-                    final PacketContainer packet = e.getPacket();
-                    final BVDPlayer player = onlinePlayers.get(e.getPlayer());
-                    player.saveSettingsViewDistance(packet.getIntegers().read(0));
+                    PacketContainer packet = e.getPacket();
+                    BVDPlayer player = onlinePlayers.get(e.getPlayer());
+                    if(player == null){
+                        player = new BVDPlayer(e.getPlayer());
+                        onlinePlayers.put(e.getPlayer(), player);
+                    }
+                    WrapperPlayClientSettings settings = new WrapperPlayClientSettings(packet);
+                    player.saveSettingsViewDistance(settings.getViewDistance());
                 }
             }
         });
