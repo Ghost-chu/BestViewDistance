@@ -97,7 +97,7 @@
             <groupId>packetwrapper</groupId>
             <artifactId>PacketWrapper</artifactId>
             <version>1.0</version>
-            <scope>system</scope>
+            <scope>shade</scope>
             <systemPath>${basedir}/lib/PacketWrapper (2).jar</systemPath>
         </dependency>
     </dependencies>

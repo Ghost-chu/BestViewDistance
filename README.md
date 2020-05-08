@@ -1,6 +1,6 @@
 # BestViewDistance
 ![Picture of BVD](https://image.noelshack.com/fichiers/2019/28/6/1563043570-bvd.png)
-A view distance plugin for **Paper**. Created to **boost ping/tps and view distance**.
+A view distance plugin for **Tuinity**. Created to **boost ping/tps and view distance**.
 
 ## How it works ?
 This plugin chooses the **best view distance for your players**.
@@ -11,11 +11,8 @@ The reduction indice changes according to the TPS of the server.
 This plugin **reduces players lag**, reduces players **ping** and **optimizes** your server a **better view distance**.
 
 ## Dependencies
-Please download Paper !
-https://papermc.io
-It's better than spigot and bukkit.
-Also provide you a lot of optimizations and options.
-[WARNING] ProtocolLib is needed ONLY for 1.12.X and below!
+* Tuinity Server Jar https://github.com/Spottedleaf/Tuinity
+* PacketWrapper https://github.com/dmulloy2/PacketWrapper
 
 ## Commands / Permissions
 ```
@@ -119,12 +116,12 @@ sudo mvn clean install
 The jar is in the `target/` folder.
 
 ## Contact
-Add me on Discord => Lxct#9971
-I'd like to hear your comments ! <3
+~~Add me on Discord => Lxct#9971
+I'd like to hear your comments ! <3~~
 
+For remake edition, please contact support for Bukkit Common Studio
+https://discord.gg/gjMSep7
 
-## Info
-Spigot Link: [https://www.spigotmc.org/resources/best-view-distance.61963/](https://www.spigotmc.org/resources/best-view-distance.61963/)
-Github Link: [https://github.com/Lxct/BestViewDistance](https://github.com/Lxct/BestViewDistance)
-Dev Builds: [https://ci.codemc.org/job/Kugge/job/BestViewDistance/](https://ci.codemc.org/job/Kugge/job/BestViewDistance/)
-[![Build Status](https://ci.codemc.org/job/Kugge/job/BestViewDistance/badge/icon)](https://ci.codemc.org/job/Kugge/job/BestViewDistance/)
+We hadn't got access from upstream, but it seems is nolonger active,
+BCS will continue develop this project but will delete this fork any
+time if original team request it.
