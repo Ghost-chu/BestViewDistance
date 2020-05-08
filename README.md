@@ -122,6 +122,6 @@ I'd like to hear your comments ! <3~~
 For remake edition, please contact support for Bukkit Common Studio
 https://discord.gg/gjMSep7
 
-We hadn't got access from upstream, but it seems is nolonger active,
-BCS will continue develop this project but will delete this fork any
-time if original team request it.
+We hadn't got access from upstream, but it seems is no longer active
+on this project,BCS will continue develop this project but will delete
+this fork any time if original team request it.
