@@ -109,7 +109,7 @@ Misc:
 Bash/Zsh linux terminal :
 
 ```
-git clone https://github.com/Lxct/BestViewDistance.git
+git clone https://github.com/bukkitcommons/BestViewDistance.git
 cd BestViewDistance
 sudo mvn clean install
 ```

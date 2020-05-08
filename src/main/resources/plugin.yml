@@ -1,8 +1,8 @@
 name: BestViewDistance
 version: 12.1
 description: Best View Distance. Optimize your view distance.
-author: Kugge
-softdepend: [ProtocolLib, PlaceholderAPI, WorldGuard]
+authors: [Kugge, BukkitCommonsStudio]
+softdepend: [ProtocolLib, PlaceholderAPI, PacketWrapper, WorldGuard]
 main: me.lxct.bestviewdistance.BestViewDistance
 
 commands:
