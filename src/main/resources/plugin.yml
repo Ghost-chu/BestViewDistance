@@ -1,5 +1,5 @@
 name: BestViewDistance
-version: 12.1
+version: Reremake 12.1
 description: Best View Distance. Optimize your view distance.
 authors: [Kugge, BukkitCommonsStudio]
 softdepend: [ProtocolLib, PlaceholderAPI, PacketWrapper, WorldGuard]
